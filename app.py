@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 load_dotenv()
 
-index_name="medical-chatbot"
+index_name = os.environ.get('INDEX_NAME')
 
 embeddings = download_hugging_face_embeddings()
 
@@ -61,6 +61,6 @@ def chat():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port= 8080, debug= True)
+    app.run()
 
 

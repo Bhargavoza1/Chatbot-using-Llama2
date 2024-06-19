@@ -7,12 +7,7 @@ from langchain_pinecone import PineconeVectorStore
 
 load_dotenv()
 
-
-
-index_name = "medical-chatbot"
-
-# print(PINECONE_API_KEY)
-# print(PINECONE_API_ENV)
+index_name = os.environ.get('INDEX_NAME')
 
 try:
     # Get the current working directory (where the script is executed)
