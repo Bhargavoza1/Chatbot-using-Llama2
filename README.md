@@ -1,6 +1,6 @@
 # End-to-end-Medical-Chatbot-using-Llama2
 
- article on transformer: [https://bhargavoza.com/projects/transformer_pytorch](https://bhargavoza.com/projects/medical_chatbot)
+ article: [https://bhargavoza.com/projects/transformer_pytorch](https://bhargavoza.com/projects/medical_chatbot)
 
 ### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
 
